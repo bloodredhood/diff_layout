@@ -1,0 +1,33 @@
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageWrapper {
+  min-width: 375px;
+  width: 450px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.blockWrapper {
+  padding: 10px 20px;
+  border: 2px darkgreen solid;
+  border-radius: 10px;
+  background-color: rgb(181, 238, 173);
+  color: crimson;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.blockWrapper a {
+  text-decoration: none;
+  color: teal;
+}
