@@ -2,37 +2,71 @@
   margin: 0 auto;
   padding-top: 231px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 1160px;
 }
 
 .mainTop {
-  height: 279px;
-  margin-bottom: 241px;
+  height: 470px;
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 240px;
 }
 
-.mainTopleft {
-  width: 609px;
-  background-color: aquamarine;
-  position: relative
+.mainTopLeft {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
 }
 
 .mainTopTitle {
   font-size: 70px;
   font-weight: 700;
+  line-height: 70px;
+}
+
+.mainTopDescr {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.mainTopMinitext {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mainTopRight {
   width: 609px;
-  background-color: aquamarine;
   position: relative
 }
 
 .mainPhoto1{
-  
+  top: 0px;
+  position: absolute;
+  z-index: 100;
+}
+
+.mainOval {
+  position: absolute;
+  top: 32px;
+  left: 196px;
+  z-index: 98;
 }
 
 .mainPhoto2{
+  position: absolute;
+  right: 0px;
+  top: 103px;
+  z-index: 99;
+}
 
+.mainDots {
+  position: absolute;
+  left: 108px;
+  top: 231px;
+  z-index: 101;
 }
