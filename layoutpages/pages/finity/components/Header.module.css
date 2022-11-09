@@ -1,0 +1,23 @@
+.header {
+  position: fixed;
+  height: 79px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.4) ;
+
+}
+
+.headerItem {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerNav {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+.mainWrapper {
+  margin: 0 auto;
+  padding-top: 231px;
+  display: flex;
+  justify-content: center;
+  width: 1160px;
+}
+
+.mainTop {
+  height: 279px;
+  margin-bottom: 241px;
+  display: flex;
+}
+
+.mainTopleft {
+  width: 609px;
+  background-color: aquamarine;
+  position: relative
+}
+
+.mainTopTitle {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.mainTopRight {
+  width: 609px;
+  background-color: aquamarine;
+  position: relative
+}
+
+.mainPhoto1{
+  
+}
+
+.mainPhoto2{
+
+}
