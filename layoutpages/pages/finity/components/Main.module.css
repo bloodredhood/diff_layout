@@ -1,3 +1,37 @@
+/* common font sizes */
+
+.font70 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.font58 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.font34 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.font21 {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.font16 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* page styles */
+
 .mainWrapper {
   margin: 0 auto;
   padding-top: 231px;
@@ -21,22 +55,6 @@
   justify-content: space-between;
   align-items: flex-start;
 
-}
-
-.mainTopTitle {
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 70px;
-}
-
-.mainTopDescr {
-  font-size: 21px;
-  font-weight: 400;
-}
-
-.mainTopMinitext {
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .mainTopRight {
@@ -69,4 +87,50 @@
   left: 108px;
   top: 231px;
   z-index: 101;
+}
+
+.mainBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.mainBottomLeft {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBottomLeftCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+}
+
+.hearts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.mainBottomRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 280px;
+}
+
+.greyText {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #7C8087;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
 }
