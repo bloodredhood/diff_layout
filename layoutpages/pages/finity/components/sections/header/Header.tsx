@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import * as logo from "../assets/logo.png"
-import BlueButton from "./ui/BlueButton"
+import * as logo from "../../../assets/logo.png"
+import BlueButton from "../../ui/BlueButton"
 import s from "./Header.module.css"
 
 // const logo = require("../assets/logo.png")

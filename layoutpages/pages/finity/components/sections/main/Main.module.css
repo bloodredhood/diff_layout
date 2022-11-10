@@ -65,28 +65,28 @@
 .mainPhoto1{
   top: 0px;
   position: absolute;
-  z-index: 100;
+  z-index: -2;
 }
 
 .mainOval {
   position: absolute;
   top: 32px;
   left: 196px;
-  z-index: 98;
+  z-index: -4;
 }
 
 .mainPhoto2{
   position: absolute;
   right: 0px;
   top: 103px;
-  z-index: 99;
+  z-index: -3;
 }
 
 .mainDots {
   position: absolute;
   left: 108px;
   top: 231px;
-  z-index: 101;
+  z-index: -1;
 }
 
 .mainBottom {

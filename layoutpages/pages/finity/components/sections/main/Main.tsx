@@ -1,16 +1,16 @@
 import s from "./Main.module.css"
 import Image from 'next/image'
-import photo1 from "../assets/photo1.png"
-import photo2 from "../assets/photo2.png"
-import DotPatternBlue from "../svg/DotPatternBlue"
-import LightgreenOval from "../svg/LightgreenOval"
-import BlueButton from "./ui/BlueButton"
-import MiniLink from "./ui/MiniLink"
-import LittleHeart from "../svg/LittleHeart"
-import LittleStar from "../svg/LittleStar"
-import slack from "../assets/slack.png"
-import microsoft from "../assets/microsoft.png"
-import facebook from "../assets/facebook.png"
+import photo1 from "../../../assets/photo1.png"
+import photo2 from "../../../assets/photo2.png"
+import DotPatternBlue from "../../../svg/DotPatternBlue"
+import LightgreenOval from "../../../svg/LightgreenOval"
+import BlueButton from "../../ui/BlueButton"
+import MiniLink from "../../ui/MiniLink"
+import LittleHeart from "../../../svg/LittleHeart"
+import LittleStar from "../../../svg/LittleStar"
+import slack from "../../../assets/slack.png"
+import microsoft from "../../../assets/microsoft.png"
+import facebook from "../../../assets/facebook.png"
 
 const Main = () => {
   return (
