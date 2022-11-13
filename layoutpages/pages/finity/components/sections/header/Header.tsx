@@ -16,7 +16,7 @@ const Header = () => {
         <div>Pages</div>
         <div>Support</div>
       </div>
-      <div className={s.headerItem}>
+      <div className={s.headerItem} style={{paddingRight: "35px"}} >
         <BlueButton text={"Get Started for Free"} />
       </div>
     </header>

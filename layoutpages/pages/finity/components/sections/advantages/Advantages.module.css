@@ -18,6 +18,12 @@
   line-height: 45px;
 }
 
+.font24 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
 .font21 {
   font-size: 21px;
   font-weight: 400;
@@ -54,4 +60,12 @@
 .assetsCol {
   display: flex;
   flex-direction: row;
+}
+
+.textCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 140px;
+  margin-top: -50px;
 }
